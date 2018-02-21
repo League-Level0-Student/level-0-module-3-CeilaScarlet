@@ -21,8 +21,19 @@ if (color.equals("red")) {
 	got.setPenColor(Color.red);
 } else if(color.equals("blue")) {
 got.setPenColor(Color.blue);}
-
-
+if (color.equals("orange")) {
+	got.setPenColor(Color.ORANGE);
+}else if (color.equals("yellow")) {
+	got.setPenColor(Color.YELLOW);
+}
+if (color.equals("green")) {
+	got.setPenColor(Color.GREEN);
+}else if (color.equals("purple")) {
+	got.setPenColor(Color.MAGENTA);
+}
+if (color.equals("")) {
+	got.setPenColor(Color.WHITE);
+}
 
         //5. if the user doesn’t enter anything, choose a random color
 
